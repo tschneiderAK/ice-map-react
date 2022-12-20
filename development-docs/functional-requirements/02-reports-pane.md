@@ -9,10 +9,17 @@
 # **Acceptance Criteria**
 
 
-## **Scenario** 2.1: User opens the index page
-**Given** User has not entered any filter criteria,  
-**When** the index page loads
-**Then** the index page will contain a nav bar, a map pane, and a reports pane.
+## **Scenario** 2.1: User views reports in reports pane
+**Given** User has not entered any filter critefria,  
+**When** the reports pane loads
+**Then** the reports pane will contain reports
+**and** the report will contain:
+- Date
+- Time
+- Feature Name
+- Reporter name
+- Ice quality
+- Thumbnail
 
 ## **Scenario** 2.2: User views reports with default sorting.
 **Given** User has not entered any filter **or** sort criteria,  
