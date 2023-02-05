@@ -13,13 +13,12 @@
 **Given** User has not entered any filter critefria,  
 **When** the reports pane loads
 **Then** the reports pane will contain reports
-**and** the report will contain:
-- Date
-- Time
-- Feature Name
+**and** each report will contain:
+- Report Datetime
+- Feature Name (Label: Location)
 - Reporter name
 - Ice quality
-- Thumbnail
+- Image Thumbnail(s)
 
 ## **Scenario** 2.2: User views reports with default sorting.
 **Given** User has not entered any filter **or** sort criteria,  
